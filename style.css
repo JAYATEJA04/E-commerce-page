@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Montserrat:wght@400;900&family=Oswald:wght@200;700&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 5%;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    /* font-weight: 500;
+    font-style: bold; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh ;
+}
+
+nav .nav-menu-icon{
+    display: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #758283;
+    /* font: 25px; */
+}
+
+nav .nav-items{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+
+.flex{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.Shoe-pic{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 450px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.heading3-container{
+    flex-direction: column;
+    margin-top: 20%;
+    color: #E07C24;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.heading1-container{
+    color: black
+}
+.para{
+    color: #758283;
+    font-size: 20px;
+}
+
+.price{
+    color: black;
+    font-weight: 400;
+}
+
+.discount{
+    color: #758283;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+/* .quantity-btn-color{
+    color:  #95d7fc;;
+}
+.product {
+	width: 30%;
+	margin: 30px;
+}
+.form-group {
+	width: 8%;
+	margin: 30px;
+    .glyphicon {
+		color: $quantity-btn-color;
+	}
+} */
+
+.cart{
+    width: 40%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #f59e2e;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.cart:hover{
+    background-color: #758283;
+}

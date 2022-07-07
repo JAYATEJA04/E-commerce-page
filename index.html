@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <!-- <li class="nav-item1">
+            <a href="#" class="nav-link">Sneakers</a>
+        </li> -->
+        <!-- <h1>sneakers</h1> -->
+        <ul class="nav-items">
+            <h1>sneakers</h1>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Collections</a>
+            </li>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+            <li class="nav-item">
+                <a href="#" class="nav-link">Men</a>
+            </li>
 
-  Sneaker Company
+            <li class="nav-item">
+                <a href="#" class="nav-link">Women</a>
+            </li>
 
-  Fall Limited Edition Sneakers
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li>
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
 
-  $125.00
-  50%
-  $250.00
+            <li class="nav-item">
+                <img src="./images/image-avatar.png" class="Human" alt="Human-pic">
+            </li>
+        </ul>
+    </nav>
 
-  0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <main>
+        <section class="flex">
+            <img src="./images/image-product-1.jpg" class="Shoe-pic" alt="">
+        </section>
+
+        <section class="heading3 heading1 para">
+            <div class="heading3-container">
+                <h3>SNEAKER COMPANY</h3>
+            </div>
+
+            <div class="heading1-container">
+                <h1>Fall Limited Edition Sneakers</h1>
+            </div>
+
+            <div class="para">
+                <p>These low-profile sneakers are your perfect casual wear
+                    companion. Featuring a durable rubber outer sole, they'll
+                    withstand everything the weather can offer.
+                </p>
+            </div>
+
+            <div class="price">
+                <h2>$150</h2>
+                <h2 class="discount">$500</h2>
+            </div>
+
+            <!-- <div class="form-group">
+                <label>Quantity: </label>
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button id="down" class="btn btn-default" onclick=" down('0')"><span class="glyphicon glyphicon-minus"></span></button>
+                    </div>
+                    <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                    <div class="input-group-btn">
+                        <button id="up" class="btn btn-default" onclick="up('10')"><span class="glyphicon glyphicon-plus"></span></button>
+                    </div>
+                </div>
+            </div> -->
+            <button class="cart">Add to cart</button>
+        </section>
+    </main>
 </body>
 </html>
